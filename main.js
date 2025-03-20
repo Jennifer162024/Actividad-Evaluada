@@ -85,7 +85,7 @@ function dividir(a, b) {
       }
       return a / b;
     } catch (error) {
-      console.log(error.message); // Maneja el error
+      console.log(error.message); 
     }
   }
   
@@ -114,7 +114,8 @@ function dividir(a, b) {
   
   prueba();
   
-  //Crea una función esperarSegundos que  use setTimeout con async/await
+  //Ejercicio 6
+  // Crea una función esperarSegundos que  use setTimeout con async/await
 
   function esperarSegundos(segundos) {
     return new Promise(resolve => {
@@ -132,7 +133,8 @@ function dividir(a, b) {
   
   ejecutar();
 
-  // Usa fetch() para obtener datos de la API https://jsonplaceholder.typicode.com/users y muestra los nombres
+  //Ejercicio 7
+  //  Usa fetch() para obtener datos de la API https://jsonplaceholder.typicode.com/users y muestra los nombres
 
   fetch('https://jsonplaceholder.typicode.com/users')
   .then(response => response.json())
